@@ -236,15 +236,15 @@ ul{
 @media screen and (max-width: 768px)
 {
     #bodycontent{
-        max-width: 680px;
-        margin: auto;
-        overflow:auto;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
     section{
          
-            width: 640px;
+            width: 95%;
             background-color: #ffffff;
             font-weight: 500;
             text-align: justify;
@@ -254,21 +254,24 @@ ul{
             font-size:.8em;
             padding: 10px 15px;
             margin-bottom: 15px;
+            margin-left: auto;
+            margin-right: auto;
         
             }
     
         aside{
                 
             margin-top: 25px;
-            width: 640px;
+            width: 95%;
             background-color: #ffffff;
-            overflow: auto;
             border-style: solid;
             border-color:#dddddd;
             border-width: 2px;
             padding: 10px 15px;
             font-size:.8em;
             margin-bottom:25px;
+            margin-left: auto;
+            margin-right: auto;
 
 
         }
@@ -301,14 +304,15 @@ ul{
             font-size: .8em;
             padding-top: .8em;
             margin-top: 70px;
+
         }
-           
+}    
 
         
 @media screen and (max-width: 640px)
 {
     #bodycontent{
-        max-width: 640px;
+        width: 95%;
         margin: 0;
         padding: 0;
         display: block;
@@ -320,14 +324,14 @@ ul{
     header{
         position: static;
         text-align: center;
-        max-width: 640;
+        width: 95%
 
     }
 
 
     section{
          
-            width: 555px;
+            width: 95%;
             background-color: #ffffff;
             font-weight: 500;
             text-align: justify;
@@ -337,13 +341,15 @@ ul{
             font-size:.8em;
             padding: 10px 15px;
             margin-bottom: 15px;
+            margin-left:auto;
+            margin-right: auto;
         
             }
     
         aside{
                 
             margin-top: 25px;
-            max-width: 555px;
+           width: 95%;
             background-color: #ffffff;
             border-style: solid;
             border-color:#dddddd;
@@ -363,7 +369,8 @@ ul{
          }
 
         h1 {
-            display: block;
+           width: 95%;
+           display: block;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 10px;
@@ -384,7 +391,7 @@ ul{
 
         #headshot {
             height: auto;
-            width: 350px;
+            width: 60%;
             float: none;
             display: block;
             margin-left: auto;
@@ -406,11 +413,10 @@ ul{
         .PicSize{
 
             display: block;
-        
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 10px;
-            width: 400px;
+            width: 90%;
             height: auto;
             float: none;
             margin-bottom: 10px
